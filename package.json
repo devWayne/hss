@@ -1,0 +1,31 @@
+{
+  "name": "hss",
+  "description": "Http Static Server",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./bin/hs",
+  "keywords": [
+    "Static",
+    "server"
+  ],
+  "author": "VI",
+  "license": "MIT",
+  "dependencies": 
+  {
+    "connect": "3.1.1",
+    "serve-index": "1.2.0",
+    "serve-static": "1.5.3",
+    "minimist": "~0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devWayne/hss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devWayne/hss/issues"
+  },
+  "homepage": "https://github.com/devWayne/hss"
+}
